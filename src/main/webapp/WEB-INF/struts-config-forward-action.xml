@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+"http://struts.apache.org/dtds/struts-config_1_3.dtd">
+ 
+<struts-config>
+    
+    <action-mappings>
+        <action path="/login"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/login.jsp">
+        </action>
+        <action path="/address"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/addressinput.jsp">
+        </action>
+    </action-mappings>
+</struts-config>
